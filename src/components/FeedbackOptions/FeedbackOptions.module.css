@@ -1,0 +1,19 @@
+
+.button {
+    padding: 4px 8px;
+    border-radius: 8px;
+    text-transform: capitalize;
+    background-color: #fff;
+    border: 1.5px solid #c8c9cc;
+    box-shadow: rgb(0 0 0 / 8%) 0px 3px 3px -2px, rgb(0 0 0 / 7%) 0px 3px 4px 0px,
+    rgb(0 0 0 / 4%) 0px 1px 4px 0px;
+}
+
+button:active {
+    background-color: #72a1ed;
+}
+
+.button:not(:last-child) {
+    margin-right: 15px;
+}
+
